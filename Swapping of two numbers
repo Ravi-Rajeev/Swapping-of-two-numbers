@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{ 
+int a,b; 
+printf("Enter the numbers to be swapped :\n"); 
+scanf("%d %d",&a,&b);
+a=a+b; 
+b=a-b; 
+a=a-b; 
+printf("The swapped numbers are\n a=%d\n b=%d\n",a,b);
+return 0; 
+}
